@@ -1,0 +1,53 @@
+.sidebar {
+  height: auto; /* Full-height sidebar */
+  background-color: #dbcc8f; /* Dark background */
+  color: white; /* White text */
+  width: 250px;
+}
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  background-color: #988847;
+}
+.sidebar a:hover {
+  background-color: #bfae69; /* Slightly lighter hover effect */
+}
+.div1 {
+  width: 230px;
+  height: 150px;
+  /* background-color: red; */
+}
+.div1 .icon {
+  font-size: 70px;
+}
+/* .bg-dark {
+  background-color: #dbcc8f;
+}
+.darkyellow {
+  background-color: #988847;
+}
+a {
+  color: #dbcc8f;
+}
+h3,h6 {
+  color: #988847;
+}
+button {
+  color: #dbcc8f;
+ 
+} */
+form {
+  background-color: #f1efec85;
+  padding: 10px;
+  margin-left: 100px;
+  width: 800px;
+}
+.navbtn {
+  width: 150px;
+}
+.navbar {
+  border: 1px solid #988847;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

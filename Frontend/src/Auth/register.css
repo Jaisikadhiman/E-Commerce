@@ -1,0 +1,110 @@
+.register {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #CADCFC;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #00246B;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #00246B;
+  }
+  
+  .input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #00246B;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #00246B;
+    outline: none;
+    background-color: #ffffff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .input:focus {
+    border-color: #00246B;
+    box-shadow: 0 0 5px rgba(0, 36, 107, 0.5);
+  }
+  
+  .gender,
+  .role {
+    margin-bottom: 15px;
+  }
+  
+  .gender label,
+  .role label {
+    font-size: 14px;
+    margin-right: 10px;
+    color: #00246B;
+  }
+  
+  .gender input,
+  .role input {
+    margin-right: 5px;
+  }
+  
+  span {
+    font-size: 12px;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  span[style="color: red"] {
+    color: red;
+    margin-bottom: 15px;
+  }
+  
+  .submit {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #00246B;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .submit:hover {
+    background-color: #001a52;
+    transform: translateY(-2px);
+  }
+  
+  .signin {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #00246B;
+  }
+  
+  .signin a {
+    color: #00246B;
+    text-decoration: none;
+  }
+  
+  .signin a:hover {
+    text-decoration: underline;
+    color: #001a52;
+  }
+  

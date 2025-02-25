@@ -1,0 +1,109 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cadcfc; /* Background color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Login container */
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #cadcfc;
+  }
+  
+  /* Form styles */
+  .form {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Labels */
+  .flex-column label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #00246b; /* Dark blue color */
+    margin-bottom: 5px;
+  }
+  
+  /* Input fields */
+  .inputForm {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #cadcfc;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #fff;
+  }
+  
+  .inputForm svg {
+    margin-right: 10px;
+    fill: #00246b; /* Icon color */
+  }
+  
+  .input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    flex: 1;
+    color: #00246b; /* Input text color */
+    box-shadow: none!important;
+  }
+  
+  .input::placeholder {
+    color: #cadcfc; /* Placeholder color */
+  }
+  
+  /* Error messages */
+  span {
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  /* Buttons */
+  .button-submit {
+    background-color: #00246b; /* Dark blue */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-submit:hover {
+    background-color: #cadcfc; /* Light blue hover effect */
+    color: #00246b; /* Text color */
+  }
+  
+  /* Links */
+  .span {
+    text-decoration: none;
+    color: #00246b; /* Dark blue color for links */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .span:hover {
+    color: #cadcfc; /* Light blue hover effect */
+  }
+  
+  /* Text under the form */
+  .p {
+    text-align: center;
+    font-size: 14px;
+    color: #00246b;
+  }
+  

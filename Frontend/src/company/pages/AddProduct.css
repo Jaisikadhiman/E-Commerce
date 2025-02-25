@@ -1,0 +1,10 @@
+.btn-group{
+gap: 15px;
+}
+.btn-primary{
+    border-radius: 5px!important;
+}
+#dropdown-basic , .btn-primary{
+    background-color: rgb(94, 94, 244)!important;
+    color: white!important;
+}
